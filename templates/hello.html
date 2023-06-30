@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Greeting</title>
+</head>
+<body>
+<p>Hello, {{ name }}</p>
+{% if  age|int > 30 %}
+    <p> Omg, you are so old</p>
+{% else %}
+    <p> Welcome to the club, boddy</p>
+{% endif %}
+</body>
+</html>
